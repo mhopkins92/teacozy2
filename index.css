@@ -1,0 +1,121 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+   color: seashell;
+   background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+h2, 
+h4, 
+h3, 
+h5 {
+    text-align: center;
+    display: block;
+}
+.header {
+    display: inline; 
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 10px;
+    height: 69 px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+}
+.logo {
+    max-height: 50px;
+    display: flex;
+    float: left;
+    padding: 10px;
+}
+.links{
+    word-spacing: 0.3em;
+    float: right;
+    margin: auto 1rem auto auto;
+}
+.link {
+    font-family: Helvetica;
+    font-size: 22px;
+   color: seashell;
+}
+.banner img {
+    z-index: 1;
+    display: flex;
+    height: 700px;
+    position: relative;
+    margin: auto; 
+    justify-self: center;
+    padding-top: 69px;
+}
+.overlaytext {
+    position: absolute;
+    background: black;
+    width: 100%;
+    bottom: 50%;
+    align-content: center;
+    word-spacing: 0.3em;
+    z-index: 9;
+}
+.featuredtea {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   flex-wrap: wrap;
+}
+figcaption {
+    text-align: center;
+}
+.TOTM {
+    max-height: 200px;
+    max-width: 300px;
+    align-content: center;
+}
+.locations-container{ 
+    background-image: url("./img-locations-background.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    }
+   
+.locations {
+    display: flex;
+      justify-content: center;
+      flex-direction: row;
+      column-gap: 40px;
+      height: 500px;
+      padding-top: 125px;
+      
+}
+
+.locations .locationbox {
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: auto;
+    border: 1px solid seashell;
+    background-color: black;
+    text-align: center;
+    display: inline-flex;
+    position:relative;
+    flex-direction: column;
+    background: rgba (0, 0, 0, 0.25);
+}
+.locations p{
+    color: white;
+}
+.footer {
+    height: 200px;
+    display: block;
+}
+.footer #copyright {
+    float: left;
+}
